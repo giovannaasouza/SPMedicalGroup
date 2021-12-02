@@ -16,19 +16,17 @@
 .logo-header{
     width: 125px;
     height: 120px;
-    background-color: #FFFFFF;
 
 }
 
 header{
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Text Me One', sans-serif;
-    background-color: #1D415C;
 }
 
 #centro ul{
@@ -38,7 +36,7 @@ header{
 }
 
 header a{
-    color: #FFFFFF;
+    color: #000000;
     font-weight: bold;
     font-size: large;
 }
@@ -64,14 +62,12 @@ a{
 }
 
 .content-img{
-  
+    background-image: url(../img/Saúde-médicos-atendimento-médico\ 1\ \(1\).png);
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #1D415C;
-    
 }
 
 .content-img p{
@@ -89,7 +85,6 @@ a{
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: #1D415C;
 }
 
 .home-destaque {
@@ -113,7 +108,7 @@ a{
     align-items: center;
     width: 180px;
     height: 280px;
-    background: #1D415C(72, 235, 199, 0.85);
+    background: rgba(72, 235, 199, 0.85);
     border-radius: 25px;
     font-family: 'Nova Round', cursive;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -125,7 +120,7 @@ a{
 
 .img-text {
     margin-top: 75px;
-    background-image: url(../img/medicoshome.png.jpeg);
+    background-image: url(../img/banner-covid\ 1.png);
     height: 585px;
     display: flex;
     flex-direction: column;
